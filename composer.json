@@ -7,8 +7,8 @@
   "type": "library",
   "authors": [
     {
-      "name": "Kirill Mokevnin",
-      "email": "mokevnin@gmail.com"
+      "name": "Roman Gusev",
+      "email": "r9045478349@gmail.com"
     }
   ],
   "description": "hexlet php-package",
@@ -19,7 +19,10 @@
   "autoload": {
     "psr-4": {
       "Php\\Package\\": "src"
-    }
+    },
+    "files": [
+      "src/Utils.php"
+    ]
   },
   "autoload-dev": {
     "psr-4": {
@@ -46,3 +49,4 @@
     }
   }
 }
+      
